@@ -24,6 +24,10 @@
 </div>
 
 <div class="band what">
+	<div class="video-container-small">
+		
+	</div>
+
 	<div class="copy">
 		<?php $recent = new WP_Query("page_id=41"); 
 		while($recent->have_posts()) : $recent->the_post();?>

@@ -48,12 +48,18 @@ html[xmlns] .clearfix {
     
     h2{
     font-family: 'Open Sans', sans-serif;
-    font-size: 37px;
+    font-size: 2.313em;
+    margin-top: 0;
+    padding-top: 2%;
+
+
     }
 
     p{
-      font-size: 28px;
-      line-height: 2em;
+      font-size: 1.750em;
+      line-height: 1.6em;
+     
+
     }
 
     a{
@@ -61,12 +67,12 @@ html[xmlns] .clearfix {
     }
 
     .copy{
-      width:80%;
+      width:65%;
       margin: 0 auto;
     }
 
     .band{
-      background: rgba(63,192,160,1);
+      background: rgba(63,192,160,.5);
       min-height: 300px;
       border-bottom: 1px solid white;
     }
@@ -76,7 +82,7 @@ html[xmlns] .clearfix {
     }
 
     .how{
-
+      padding-bottom: 20%;
     }
 
     .what{
@@ -88,11 +94,19 @@ html[xmlns] .clearfix {
     }
 
     .video-container-small{
+      width:600px;
+      height:400px;
+      background: yellow;
+      position: relative;
+      top:-200px;
+      left:50%;
+
+
 
     }
 
     footer{
-      background: rgba(63,192,160,.5);
+      background: rgba(63,192,160,1);
       min-height: 200px;
     }
 
