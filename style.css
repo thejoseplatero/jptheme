@@ -38,18 +38,57 @@ html[xmlns] .clearfix {
 /* end set up */
 
       /* First we do all of our regular CSS for the basics and desktop site */
-     body{
+    body{
+      font-family: 'Raleway', sans-serif;
+     }
+
+    h1{
 
      }
     
+    h2{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 37px;
+    }
+
+    p{
+      font-size: 28px;
+      line-height: 2em;
+    }
+
+    a{
+
+    }
+
+    .copy{
+      width:80%;
+      margin: 0 auto;
+    }
+
     .band{
       background: rgba(63,192,160,1);
       min-height: 300px;
       border-bottom: 1px solid white;
     }
 
+    .why{
+
+    }
+
+    .how{
+
+    }
+
+    .what{
+
+    }
+
     .header{
       background: white;
+    }
+
+    .video-container-small{
+
     }
 
     footer{
