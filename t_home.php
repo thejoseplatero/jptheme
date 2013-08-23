@@ -33,7 +33,14 @@
 		while($recent->have_posts()) : $recent->the_post();?>
 	 		<?php the_content(); ?>	
 	 	<?php endwhile; ?>
-	 </div>
+	</div>
+	<div class="contact">
+			<a href="mailto:contact@joseplatero" class="button">Email</a>
+			<a href="twitter.com/thejoseplatero" class="button">Twitter</a>
+			<a href="http://www.linkedin.com/in/joseplatero" class="button">LinkedIn</a>
+			<a href="https://github.com/thejoseplatero/jptheme" class="button">Github</a>
+			<a href="#" class="button">Blog</a>
+	</div>
 </div>
 
 
