@@ -118,12 +118,30 @@ html[xmlns] .clearfix {
      overflow: hidden; 
    }
 
+    .flag{
 
+    }
+
+
+    .flag img{
+      width: 3%;
+      margin:0 auto;
+      display:block;
+
+    }
+
+    .flag h3{
+      text-align: center;
+
+    }
 
     footer{
       background: rgba(62,165,206,1);
       min-height: 200px;
+      padding:2%;
     }
+
+
 
       /* Then we use media queries for targeting other resolutions */
 
