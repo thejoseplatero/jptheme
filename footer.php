@@ -1,4 +1,6 @@
 <footer>
+
+<img src="/jose/assets/flag.svg" alt="">
   
 </footer>
 

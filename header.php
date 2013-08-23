@@ -40,8 +40,12 @@
            <?php wp_nav_menu(array('menu' => 'main' )); ?>  -->
      
  <div class="band header">
-   
+   <!-- <video autoplay loop="loop" muted poster="/jose/assets/josebanner.jpg">
+     <source src="/jose/assets/trees.mp4" type="video/mp4">
+   </video> -->
+
  </div>
+
 
 
 

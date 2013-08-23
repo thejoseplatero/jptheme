@@ -40,6 +40,8 @@ html[xmlns] .clearfix {
       /* First we do all of our regular CSS for the basics and desktop site */
     body{
       font-family: 'Raleway', sans-serif;
+      color:white;
+
      }
 
     h1{
@@ -48,16 +50,17 @@ html[xmlns] .clearfix {
     
     h2{
     font-family: 'Open Sans', sans-serif;
-    font-size: 2.313em;
+    font-size: 3.125em;
     margin-top: 0;
     padding-top: 2%;
-
-
+    text-align: center;
+    
     }
 
     p{
       font-size: 1.750em;
       line-height: 1.6em;
+
      
 
     }
@@ -72,10 +75,14 @@ html[xmlns] .clearfix {
     }
 
     .band{
-      background: rgba(63,192,160,.5);
+      background: rgba(62,165,206,1);
       min-height: 300px;
       border-bottom: 1px solid white;
     }
+    .header{
+    background: white;
+    }
+
 
     .why{
 
@@ -89,10 +96,7 @@ html[xmlns] .clearfix {
 
     }
 
-    .header{
-      background: white;
-    }
-
+   
     .video-container-small{
       width:600px;
       height:400px;
@@ -100,13 +104,24 @@ html[xmlns] .clearfix {
       position: relative;
       top:-200px;
       left:50%;
-
-
-
     }
 
+    #video_background {
+     position: absolute; 
+     bottom: 0px; 
+     right: 0px; 
+     min-width: 100%; 
+     min-height: 100%; 
+     width: auto; 
+     height: auto; 
+     z-index: -1000; 
+     overflow: hidden; 
+   }
+
+
+
     footer{
-      background: rgba(63,192,160,1);
+      background: rgba(62,165,206,1);
       min-height: 200px;
     }
 
