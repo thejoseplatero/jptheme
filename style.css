@@ -75,7 +75,8 @@ html[xmlns] .clearfix {
     }
 
     .band{
-      background: rgba(62,165,206,1);
+      /*background: rgba(62,165,206,1);*/
+      background: rgba(63,192,160,1);
       min-height: 300px;
       border-bottom: 1px solid white;
     }
@@ -135,8 +136,13 @@ html[xmlns] .clearfix {
 
     }
 
+    .flag h4{
+      text-align: center;
+    }
+
     footer{
-      background: rgba(62,165,206,1);
+     /* background: rgba(62,165,206,1);*/
+     background: rgba(63,192,160,1);
       min-height: 200px;
       padding:2%;
     }
