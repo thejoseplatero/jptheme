@@ -61,7 +61,7 @@ html[xmlns] .clearfix {
       font-size: 1.750em;
       line-height: 1.6em;
     }
-    
+
 /*    a{
       text-decoration: none;
     }*/
@@ -85,6 +85,10 @@ html[xmlns] .clearfix {
 
     }
 
+    .why h2{
+      padding-top: 15%
+    }
+
     .how{
       padding-bottom: 20%;
     }
@@ -94,7 +98,7 @@ html[xmlns] .clearfix {
     }
 
     .what h2{
-      margin-left-top: -20%;
+      margin-top: -20%;
     }
    
     .video-container-small{
@@ -106,8 +110,8 @@ html[xmlns] .clearfix {
       left:50%;
     }
 
-    #video_background {
-     position: absolute; 
+   #video_background { 
+     position: absolute;
      bottom: 0px; 
      right: 0px; 
      min-width: 100%; 
@@ -115,8 +119,17 @@ html[xmlns] .clearfix {
      width: auto; 
      height: auto; 
      z-index: -1000; 
-     overflow: hidden; 
+  
    }
+
+   .video-container{
+    background: red;
+    position: absolute;
+    width: 100%;
+    overflow: hidden;
+    max-height: 400px;
+   }
+
 
    .contact{
     width:65%;
@@ -150,25 +163,31 @@ html[xmlns] .clearfix {
 
 
   .flag img{
-    width: 3%;
-    margin:0 auto;
+    width: 40px;
+    margin:2% auto;
     display:block;
 
   }
 
   .flag h3{
     text-align: center;
+    font-size: 1.000em;
+
 
   }
 
   .flag h4{
     text-align: center;
+    font-size: 0.750em;
+    margin-top: -1.5%;
+
   }
 
   footer{
     background: rgba(63,192,160,1);
     min-height: 200px;
     padding:2%;
+
   }
 
 
