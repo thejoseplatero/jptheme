@@ -45,6 +45,10 @@
        <source src="/jose/assets/canada_v2.1.mp4" type="video/mp4">
      </video>
    </div> -->
+   <h1>Catch Phrase<h1>
+    <div class="jose-image-container">
+      
+    </div>
  </div>
 
 
