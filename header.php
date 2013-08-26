@@ -40,11 +40,11 @@
            <?php wp_nav_menu(array('menu' => 'main' )); ?>  -->
      
  <div class="band header">
-   <div class="video-container">
+<!--    <div class="video-container">
      <video id="#background_video" height="1180px" autoplay="true" loop="loop" onended="this.play()" muted poster="/jose/assets/josebanner.jpg">
-       <source src="/jose/assets/x.mp4" type="video/mp4">
+       <source src="/jose/assets/canada_v2.1.mp4" type="video/mp4">
      </video>
-   </div>
+   </div> -->
  </div>
 
 
