@@ -49,6 +49,7 @@
     <div class="jose-image-container">
       
     </div>
+    <h2>Jose Platero</h2>
  </div>
 
 
