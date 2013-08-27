@@ -84,13 +84,15 @@ html[xmlns] .clearfix {
     }
 
     .jose-image-container{
-      width:200px;
-      min-height: 200px;
+      background: url("/jose/assets/joseprofile.jpg") no-repeat;
+   
+      min-height: 270px;
+      width: 300px;
       margin:0 auto;
-      background: white;
-      -webkit-border-radius: 4px;
-      -moz-border-radius: 4px;
-      border-radius: 4px;
+      border: 2px solid white;
+      -webkit-border-radius: 50%;
+      -moz-border-radius: 50%;
+      border-radius: 50%;
  
     }
 
