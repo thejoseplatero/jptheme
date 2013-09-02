@@ -82,16 +82,15 @@ html[xmlns] .clearfix {
 
     }
     .header{
-     /* background: rgba(63,192,160,1);*/
-   /*  background:url("/jose/assets/planningbanner.jpg");*/
-        background:url("/jose/assets/lovejose.jpg") no-repeat;
-        background-position: right bottom;
-      color:white;
-
+ 
+    background:url("/jose/assets/lovejose.jpg") no-repeat;
+    background-position: right bottom;
+    color:white;
+  
     }
 
-    .jose-image-container{
-  /*    background: url("/jose/assets/joseprofilebwbigblurr.jpg") no-repeat;*/
+   /* .jose-image-container{
+      background: url("/jose/assets/joseprofilebwbigblurr.jpg") no-repeat;
    
       min-height: 270px;
       width: 300px;
@@ -101,7 +100,7 @@ html[xmlns] .clearfix {
       -moz-border-radius: 50%;
       border-radius: 50%;
  
-    }
+    }*/
 
 
     .why{
@@ -132,27 +131,6 @@ html[xmlns] .clearfix {
       top:-200px;
       left:50%;
     }
-
-/*   #video_background { 
-     position: absolute;
-     bottom: 0px; 
-     right: 0px; 
-     min-width: 100%; 
-     min-height: 100%; 
-     width: auto; 
-     height: auto; 
-     z-index: -1000; 
-  
-   }
-
-   .video-container{
-    background: red;
-    position: absolute;
-    width: 100%;
-    overflow: hidden;
-    max-height: 400px;
-   }
-*/
 
    .contact{
     width:65%;
