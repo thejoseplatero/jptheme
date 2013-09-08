@@ -40,89 +40,62 @@ html[xmlns] .clearfix {
       /* First we do all of our regular CSS for the basics and desktop site */
     body{
       font-family: 'Raleway', sans-serif;
-      color:black;
+      color:white;
 
      }
 
     h1{
       margin-top: 0;
       text-align: center;
-      padding-top: 2%;
       font-size: 4.188em;
      }
     
     h2{
     font-family: 'Open Sans', sans-serif;
     font-size: 3.125em;
-    margin-top: 0;
-    padding-top: 2%;
+    margin-top: 0;  
     text-align: center;
     
+    }
+
+    h3{
+      text-align: center;
     }
 
     p{
       font-size: 1.750em;
       line-height: 1.6em;
     }
-
-/*    a{
+    
+    a{
       text-decoration: none;
-    }*/
+    }
    
     .copy{
+      padding-top: 5%;
       width:65%;
       margin: 0 auto;
     }
 
     .band{
-      /*background: rgba(63,192,160,1);*/
-      background:#eee;
+      background: rgba(63,192,160,1);
       min-height: 400px;
       border-bottom: 1px solid white;
-
     }
+
+    img.bouncing-image, img.still-bouncing-image{
+      width: 80px;
+      margin:0 auto;
+      display:block;
+    } 
+
     .header{
- 
-    background:url("/jose/assets/lovejose.jpg") no-repeat;
-    background-position: right bottom;
-    color:white;
+      background:url("/jose/assets/lovejose.jpg") no-repeat;
+      background-position: right bottom;
+      color:white;
   
     }
-
-   /* .jose-image-container{
-      background: url("/jose/assets/joseprofilebwbigblurr.jpg") no-repeat;
-   
-      min-height: 270px;
-      width: 300px;
-      margin:0 auto;
-      border: 2px solid white;
-      -webkit-border-radius: 50%;
-      -moz-border-radius: 50%;
-      border-radius: 50%;
- 
-    }*/
-
-
-    .why{
-
-    }
-
-    .why h2{
-      padding-top: 15%
-    }
-
-    .how{
-      padding-bottom: 20%;
-    }
-
-    .what{
-
-    }
-
-    .what h2{
-      margin-top: -20%;
-    }
-   
+/*   
     .video-container-small{
       width:600px;
       height:400px;
@@ -130,16 +103,17 @@ html[xmlns] .clearfix {
       position: relative;
       top:-200px;
       left:50%;
-    }
+    }*/
 
    .contact{
-    width:65%;
+    width:100%;
     margin: 0 auto;
+   
    }
 
    .button{
-    font-size: 1.000em;
-    text-transform: uppercase;
+    font-size: 1.313em;
+    letter-spacing: 0.1em;
     text-decoration: none;
     color: rgba(255,255,255,1);
     display: inline-block;
@@ -148,14 +122,19 @@ html[xmlns] .clearfix {
     margin-top: 1%;
     margin-bottom: 2%;
     margin-right: 1%;
-    padding: 2% 4%;
-    -webkit-border-radius: 4px;
-    -moz-border-radius: 4px;
+    padding: 3% 5%;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
     border-radius: 4px;
-    text-decoration: none;
-
    }
-  
+    
+   li{
+    font-size: 1.313em;
+    width:50%;
+    margin-top: 10px;
+    list-style: none;
+   } 
+ 
 
   .button:hover{
     border: 1px solid rgba(255,255,255,1);
@@ -185,9 +164,8 @@ html[xmlns] .clearfix {
   }
 
   footer{
-   /* background: rgba(63,192,160,1);*/
-   background: #84a4b3;
-   color:white;
+    background: rgba(63,192,160,1);
+    color:white;
     min-height: 200px;
     padding:2%;
 
