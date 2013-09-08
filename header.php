@@ -31,22 +31,16 @@
  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 </head>
   <body <?php body_class(); ?>>
-    <div class="wrapper">
-      <header>
-      <!--   <h1><?php bloginfo('name'); ?></h1> -->
-
-      <!-- navigation -->
-   <!-- 
-           <?php wp_nav_menu(array('menu' => 'main' )); ?>  -->
+    <div class="wrapper clearfix">
      
- <div class='band header'>
-  <div class="copy">
-    <?php $recent = new WP_Query("page_id=41"); 
-    while($recent->have_posts()) : $recent->the_post();?>
-      <?php the_content(); ?> 
-    <?php endwhile; ?>
-  </div>
- </div>
+     <div class='band header'>
+      <div class="copy">
+        <?php $recent = new WP_Query("page_id=41"); 
+        while($recent->have_posts()) : $recent->the_post();?>
+          <?php the_content(); ?> 
+        <?php endwhile; ?>
+      </div>
+    </div>
 
 
 
