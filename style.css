@@ -41,6 +41,7 @@ html[xmlns] .clearfix {
     body{
       font-family: 'Raleway', sans-serif;
       color:white;
+       background: rgb(63,192,160);
 
      }
 
@@ -78,9 +79,9 @@ html[xmlns] .clearfix {
     }
 
     .band{
-      background: rgb(229,59,81);
       min-height: 400px;
-     border-bottom:1px solid rgb(229,59,81);
+       background: rgb(63,192,160);
+      border-bottom: 1px solid rgb(63,192,160);
     }
 
     .alt-band{
@@ -96,7 +97,7 @@ html[xmlns] .clearfix {
 
     .header{
       background:url("/jose/assets/lovejose.jpg") no-repeat;
-      background-position: right bottom;
+      /*background-position: 80% 70%;*/
       color:white;
   
     }
