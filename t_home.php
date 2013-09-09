@@ -26,7 +26,7 @@
 	 	<div class="contact">
 	 		<a href="#" class="button">Services</a>
 	 	    <a href="mailto:contact@joseplatero" class="button">Email</a>
-	 	    <a href="twitter.com/thejoseplatero" class="button">Twitter</a>
+	 	    <a href="http://twitter.com/thejoseplatero" class="button">Twitter</a>
 	 	    <a href="http://www.linkedin.com/in/joseplatero" class="button">LinkedIn</a>
 	 	    <a href="https://github.com/thejoseplatero/jptheme" class="button">Github</a>
 	 	   
