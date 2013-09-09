@@ -41,31 +41,43 @@ html[xmlns] .clearfix {
     body{
       font-family: 'Raleway', sans-serif;
       color:white;
-       background: rgb(63,192,160);
+       background: rgb(4,174,216);
 
      }
 
-    h1{
-      margin-top: 0;
-      text-align: center;
+    .header h1{
       font-size: 4.188em;
+      text-align: left;
+      margin-left:-20%;
+      margin-top:4%;
      }
+
+     .header h3{
+      text-align: left;
+      margin-top: -4%;
+      margin-left: -10%;
+   
+      width:50%;
+     
+
+    }
+     
     
-    h2{
+    .band h2{
     font-family: 'Open Sans', sans-serif;
     font-size: 3.125em;
     margin-top: 0;  
     text-align: center;
+
     
     }
 
-    h3{
-      text-align: center;
-    }
+ 
 
     p{
       font-size: 1.750em;
       line-height: 1.6em;
+
     }
     
     a{
@@ -75,18 +87,20 @@ html[xmlns] .clearfix {
     .copy{
       padding-top: 5%;
       width:65%;
-      margin: 0 auto;
+      margin: 0 auto; 
+
     }
 
     .band{
       min-height: 400px;
-       background: rgb(63,192,160);
+      background: rgb(63,192,160);
+  
       border-bottom: 1px solid rgb(63,192,160);
     }
 
     .alt-band{
-      background: rgb(63,192,160);
-      border-bottom: 1px solid rgb(63,192,160);
+        background: rgb(4,174,216);
+        border-bottom: 1px solid rgb(4,174,216);
     }
 
     img.bouncing-image, img.still-bouncing-image{
@@ -162,7 +176,7 @@ html[xmlns] .clearfix {
   }
 
   footer{
-    background: rgba(63,192,160,1);
+    background: rgb(4,174,216);
  
     color:white;
     min-height: 200px;
