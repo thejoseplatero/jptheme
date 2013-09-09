@@ -124,7 +124,7 @@ html[xmlns] .clearfix {
    }
 
    .button{
-    font-size: 1.313em;
+    font-size: 1.000em;
     letter-spacing: 0.1em;
     text-decoration: none;
     color: rgba(255,255,255,1);
@@ -134,7 +134,7 @@ html[xmlns] .clearfix {
     margin-top: 1%;
     margin-bottom: 2%;
     margin-right: 1%;
-    padding: 3% 5%;
+    padding: 2% 5%;
     -webkit-border-radius: 8px;
     -moz-border-radius: 8px;
     border-radius: 4px;
