@@ -7,21 +7,21 @@
   <title><?php bloginfo('name'); ?></title>
   <link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>" />
     
-    <meta name="description" content="A showcase of Jose Platero's work in the digital world."/>
-    <meta name= "keywords" content="digital, business analyst, media, web, development, design  "/>
+    <meta name="description" content="Digital Media Design and Consulting"/>
+    <meta name= "keywords" content="Digital Media, Business Analysis, Project Management, Design, Web Development, Consulting "/>
     <meta name="author" content="Jose Platero"/>
     
 
     <meta property="og:title" content"<?php bloginfo('name'); ?>" />
     <meta property="og:url" content="http://www.joseplatero.com"/>
-    <meta property="og:description" content="A showcase of Jose Platero's work in the digital world. "/>
+    <meta property="og:description" content="Digital Media Design and Consulting"/>
     <meta property="og:image" content="http://www.joseplatero.com/assets/joseprofile.jpg"/>
 
-    <meta name="twitter:card" content="A showcase of Jose Platero's work in the digital world. ">
+    <meta name="twitter:card" content="Digital Media Design and Consulting">
     <meta name="twitter:site" content="@thejoseplatero">
     <meta name="twitter:creator" content="@thejoseplatero">
-    <meta name="twitter:title" content="Jose">
-    <meta name="twitter:description" content="A showcase of Jose Platero's work in the digital world.">
+    <meta name="twitter:title" content="Jose Platero">
+    <meta name="twitter:description" content="Digital Media Design and Consulting">
     <meta name="twitter:image" content="http://www.joseplatero.com/assets/joseprofile.jpg">
   <!-- additional footer tags available (See the App Installs and Deep Linking document to learn more) -->
    
@@ -35,10 +35,12 @@
      
      <div class='band header'>
       <div class="copy">
-        <?php $recent = new WP_Query("page_id=41"); 
-        while($recent->have_posts()) : $recent->the_post();?>
-          <?php the_content(); ?> 
-        <?php endwhile; ?>
+        <h1>
+          <?php bloginfo('name'); ?>
+        </h1>  
+        <h3>
+           <?php bloginfo('description'); ?>
+        </h3>
       </div>
     </div>
 
