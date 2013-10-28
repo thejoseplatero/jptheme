@@ -6,7 +6,7 @@
 
 <div class="band" id="bouncing-ball">
 	<div class="copy">
-		<img class='bouncing-image' src="/jose/assets/ball3.svg" alt="ball">	
+		<img class='bouncing-image' src="<?php bloginfo('url'); ?>/assets/ball3.svg" alt="ball">	
 	 		<?php $recent = new WP_Query("page_id=36"); 
 	 		while($recent->have_posts()) : $recent->the_post();?>
 	 	 		<?php the_content(); ?>	
@@ -17,7 +17,7 @@
 
 <div class="band alt-band" id='still-bouncing'>	
 	<div class="copy">
-		<img class='still-bouncing-image' src="/jose/assets/still-bounce.svg" alt="flyingman">	
+		<img class='still-bouncing-image' src="<?php bloginfo('url'); ?>/assets/still-bounce.svg" alt="flyingman">	
 			<?php $recent = new WP_Query("page_id=38"); 
 			while($recent->have_posts()) : $recent->the_post();?>
 		 		<?php the_content(); ?>	

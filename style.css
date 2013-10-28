@@ -75,10 +75,10 @@ html[xmlns] .clearfix {
     }
 
       .header{
-        background:url("/jose/assets/lovejose.jpg") no-repeat;
+        background:url("images/lovejose.jpg") no-repeat;
         color:white;
       }
-      
+
       .header h1{
         font-size: 4.188em;
         text-align: left;
