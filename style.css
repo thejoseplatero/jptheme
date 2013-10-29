@@ -35,6 +35,8 @@ html[xmlns] .clearfix {
 
 * { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
 
+img#wpstats{display:none}
+
 /* end set up */
 
       /* First we do all of our regular CSS for the basics and desktop site */
