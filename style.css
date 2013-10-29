@@ -39,7 +39,9 @@ img#wpstats{display:none}
 
 /* end set up */
 
-      /* First we do all of our regular CSS for the basics and desktop site */
+/* Start Desktop Site */
+  
+  /* Start General */
     body{
       font-family: 'Raleway', sans-serif;
       color:white;
@@ -55,7 +57,9 @@ img#wpstats{display:none}
       text-decoration: none;
     }
    
+  /* End General */
 
+  /* Start Main Page Layout */
     .band{
       min-height: 400px;
       background: rgb(63,192,160);
@@ -74,43 +78,66 @@ img#wpstats{display:none}
       text-align: center;
     }
 
-      .header{
-        background:url("images/lovejose.jpg") no-repeat;
-        color:white;
-      }
+    .header{
+      background:url("images/lovejose.jpg") no-repeat;
+      color:white;
+    }
 
-      .header h1{
-        font-size: 4.188em;
-        text-align: left;
-        margin-left:-20%;
-        margin-top:12%;
-       }
+    .header h1{
+      font-size: 4.188em;
+      text-align: left;
+      margin-left:-20%;
+      margin-top:12%;
+     }
 
-      .header h3{
-        text-align: left;
-        margin-top: -4%;
-        margin-left: -20%;
-        width:50%;
-      }
+    .header h3{
+      text-align: left;
+      margin-top: -4%;
+      margin-left: -20%;
+      width:50%;
+    }
        
-
     .copy{
       padding-top: 5%;
       width:65%;
       margin: 0 auto; 
     }
+  /* End Main Page Layout */
 
+  /* Start Main Page Images */
     img.bouncing-image, img.still-bouncing-image{
       width: 80px;
       margin:0 auto;
       display:block;
     } 
+   /* Start Main Page Images */
+
+  /** Start Footer **/
+
+    footer{
+      background: rgb(4,174,216);
+      color:white;
+      min-height: 200px;
+      padding:2%;
+
+    }
+
+    .flag img{
+      width: 40px;
+      margin:2% auto;
+      display:block;
+    }
+
+    p.made-in-canada{
+      text-align: center;
+      font-size: 1.000em;
+    }
 
     .menu-footer-menu-container{
       width: 100%;
       margin:0 auto;
     }
-  
+    
       .menu{
         margin:0;
         padding: 0;
@@ -140,65 +167,50 @@ img#wpstats{display:none}
             color: white;
             font-size: 1.000em;
           }
+  /** End Footer **/
+
+/** End Desktop Site  **/
 
 
-    .flag img{
-      width: 40px;
-      margin:2% auto;
-      display:block;
-    }
-
-    p.made-in-canada{
-      text-align: center;
-      font-size: 1.000em;
-    }
-
-    footer{
-      background: rgb(4,174,216);
-      color:white;
-      min-height: 200px;
-      padding:2%;
-
-    }
-
-
-
-      /* Then we use media queries for targeting other resolutions */
+           /******************
+           ** media queries **
+           ******************/
 
       /* Portrait tablet and small desktops */
       @media (max-width: 940px) {
  
-     p{
-       font-size: 1.750em;
-       line-height: 1.6em;
-     }
-
-     .header{
-       background-position: 2% 0;
-     }
-
-     .header h1{
-       font-size: 3.125em;
-       text-align: left;
-       margin-left:2%;
-       margin-top:18%;
-      }
-
-     .header h3{
-       text-align: left;
-       margin-top: -4%;
-       margin-left: 2%;
-       width:50%;
-       line-height: 1.6em;
-     }
+        /* Start General */
+         p{
+           font-size: 1.750em;
+           line-height: 1.6em;
+         }
+        /* End General */
       
-    .copy{
-      padding-top: 5%;
-      width:90%;
-    }
+        /* Start Main Page Layout 940px */
+         .header{
+           background-position: 2% 0;
+         }
 
+         .header h1{
+           font-size: 3.125em;
+           text-align: left;
+           margin-left:2%;
+           margin-top:18%;
+          }
 
-
+         .header h3{
+           text-align: left;
+           margin-top: -4%;
+           margin-left: 2%;
+           width:50%;
+           line-height: 1.6em;
+         }
+          
+        .copy{
+          padding-top: 5%;
+          width:90%;
+        }
+      /* End Main Page Layout 940px */
       }
        
       /* Landscape phone to portrait tablet */
@@ -209,13 +221,14 @@ img#wpstats{display:none}
       /* Landscape phones and down */
       @media (max-width: 480px) {
 
-     
-     
+      /* Start General */
         p{
           font-size: 1.750em;
           line-height: 1.6em;
         }
-
+      /* End General*/
+      
+      /* Start Main Page Layout 480px */
         .band h2{
           font-size: 2.750em;
         }
@@ -240,10 +253,11 @@ img#wpstats{display:none}
        .copy{
          width:90%;
        }
+      /* End Main Page Layout 480px */
 
+      /*Start footer*/
        .menu-footer-menu-container{
          width:70%;
        }
-
-   
+      /*End Footer */ 
       }
