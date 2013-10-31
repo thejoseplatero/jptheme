@@ -1,7 +1,7 @@
 <footer>
-	<div class="flag cleafix">
+	<div class="flag">
 		<img src="<?php bloginfo('url'); ?>/assets/flag.svg" alt="canadian flag">
-		<p class ="made-in-canada">Proudly Made in Canada</h3>
+		<p class ="made-in-canada">Proudly Made in Canada</p>
 		<!--menu-footer-menu-container-->
 		 <?php wp_nav_menu( array( 'theme_location' => 'footer-menu' ) ); ?>
   	</div>
@@ -9,6 +9,6 @@
  
   <?php wp_footer(); ?>
 
- </div> <!-- end wrapper -->
+<div/>  <!-- End Fluid Layout -->
 </body>
 </html>

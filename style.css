@@ -40,12 +40,22 @@ img#wpstats{display:none}
 /* end set up */
 
 /* Start Desktop Site */
+
+  /* Start Fluid Layout */
+    #main-page {
+      /*  margin: 0px auto;*/
+       /* padding: 0 1em;*/
+    /*    max-width: 61.75em; */     /* 988px / 16px = 61.75em */
+    }
+  /* End Fluid Layout */
+
+
   
   /* Start General */
     body{
       font-family: 'Raleway', sans-serif;
       color:white;
-      background: rgb(4,174,216);
+   /*   background: rgb(4,174,216);*/
     }
 
     p{
@@ -112,14 +122,14 @@ img#wpstats{display:none}
     } 
    /* Start Main Page Images */
 
-  /** Start Footer **/
+  /** Start Main Page Footer **/
 
     footer{
       background: rgb(4,174,216);
       color:white;
       min-height: 200px;
       padding:2%;
-
+      overflow:hidden;
     }
 
     .flag img{
@@ -131,11 +141,13 @@ img#wpstats{display:none}
     p.made-in-canada{
       text-align: center;
       font-size: 1.000em;
+
     }
 
     .menu-footer-menu-container{
       width: 100%;
       margin:0 auto;
+
     }
     
       .menu{
@@ -145,8 +157,7 @@ img#wpstats{display:none}
         }
       
       .menu-footer-menu-container{
-      margin-top: -1%;
-      
+        margin-top: -1%;
       }
 
         .menu-footer-menu-container li{
@@ -159,7 +170,7 @@ img#wpstats{display:none}
             text-decoration: underline;
             color: white;
             font-size: 0.750em;
-            padding:0 5px;
+            padding:5px;
           }
 
           .menu-footer-menu-container a:hover{
