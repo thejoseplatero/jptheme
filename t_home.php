@@ -26,10 +26,22 @@
 	 	<div class="bounce-container">
 	 		<img class='still-bouncing-image' src="<?php bloginfo('url'); ?>/assets/still-bounce.svg" alt="flyingman">	
 	 	</div>
+	 	<div class="project project-blue">
+	 		<p>IJAMESJONES</p>
+	 	</div>
+	 	<div class="project">
+	 		<p>Eh oh Oh Eh</p>
+	 	</div>
+	 	<div class="project">
+	 		<p>Eh oh Oh Eh</p>
+	 	</div>
+	 	<div class="project">
+	 		<p>Eh oh Oh Eh</p>
+	 	</div>
 	</div>
 
-	<div class="band">
-		<div class="project">
+	<div class="band clearfix">
+		<div class="service">
 			<p>Eh oh Oh Eh</p>
 		</div>
 	</div>
