@@ -30,19 +30,18 @@
   <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 </head>
-<div id="main-page clearfix">  <!-- Start Fluid Layout -->
+
   <body <?php body_class(); ?>>
-     
-     <div class='band header'>
-      <div class="copy">
+  <div id="main-page">   <!-- Start Fluid Layout -->   
+    <div class='header'>
+      <div class="logo-container">
         <h1>
           <?php bloginfo('name'); ?>
-        </h1>  
-        <h3>
-           <?php bloginfo('description'); ?>
-        </h3>
+        </h1> 
       </div>
+         
     </div>
+  </div>
 
 
 

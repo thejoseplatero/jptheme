@@ -24,4 +24,11 @@
 	 	</div>
 	</div>
 
+	<div class="band">
+		<div class="project">
+			<p>Eh oh Oh Eh</p>
+		</div>
+	</div>
+
 	<?php get_footer(); ?>
+
