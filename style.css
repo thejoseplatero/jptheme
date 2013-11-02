@@ -57,9 +57,8 @@ img#wpstats{display:none}
     }
 
     p{
-      font-size: 1.750em;
-      line-height: 1.6em;
-
+      font-size: 1.313em;
+      line-height: 1.2em;
     }
     
     a{
@@ -76,17 +75,16 @@ img#wpstats{display:none}
       min-height: 5%;
       width:100%;
       position: fixed;
-
     }
 
     .logo-container{
       width:20%;
       margin:0;
-      padding:2%;
+      padding:1%;
     }
 
     .header h1{
-      font-size:1.000em;
+      font-size:1.313em;
       margin:0;
       color:white;
     }
@@ -95,6 +93,8 @@ img#wpstats{display:none}
       background: #F5F5F5;
       border-bottom: 1px solid  #F3F3F3;
       color:black;
+      width:100%;
+      padding:10%;
     }
 
     .alt-band{
@@ -107,12 +107,19 @@ img#wpstats{display:none}
       font-family: 'Open Sans', sans-serif;
       font-size: 3.125em;
       margin-top: 0;  
-      text-align: center;
       color:black;
     }
 
+  
+    .band img{
 
-    .me{
+    }
+
+    .alt-band img{
+   
+    }
+
+/*    .me{
         background:url("images/lovejose.jpg") no-repeat;
         background-position: 35% 35%;
         margin-top: 2%;
@@ -126,14 +133,15 @@ img#wpstats{display:none}
         border-radius: 50%;
         border:10px solid white;
     }
-       
+       */
     .copy{
-      padding-top: 5%;
-      width:65%;
-      margin: 0 auto; 
+      width:70%;
+      display:inline-block;
     }
 
-
+    .copy p{
+   
+    }
     .project{
       position: relative;
       border: 1px solid black;
@@ -152,9 +160,13 @@ img#wpstats{display:none}
   /* End Main Page Layout */
 
   /* Start Main Page Images */
+
+    .bounce-container{
+      width:20%;
+     float:right;
+    }
     img.bouncing-image, img.still-bouncing-image{
-      width: 80px;
-      margin:0 auto;
+      width: 100%;
       display:block;
     } 
    /* Start Main Page Images */
