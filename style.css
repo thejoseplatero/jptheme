@@ -18,6 +18,7 @@ input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}b
   visibility: hidden;
   line-height: 0;
   height: 0;
+  font-size: 0;
 }
 
  
@@ -45,7 +46,7 @@ img#wpstats{display:none}
     #main-page {
   /*    margin: 0px auto;
        padding: 0 1em;*/
-       /* max-width: 61.75em;*/      /* 988px / 16px = 61.75em */
+    /*    max-width: 61.75em;   */   /* 988px / 16px = 61.75em */
     }
   /* End Fluid Layout */
 
@@ -71,10 +72,13 @@ img#wpstats{display:none}
 
     .header{
       background: rgb(4,174,216);
-      border-bottom: 6px solid rgba(0,0,0,.1); 
       min-height: 5%;
       width:100%;
       position: fixed;
+    }
+
+    .alpha-border-bottom{
+      border-bottom: 2px solid rgba(0,0,0,.1); 
     }
 
     .logo-container{
@@ -94,7 +98,6 @@ img#wpstats{display:none}
       border-bottom: 1px solid  #F3F3F3;
       color:black;
       width:100%;
-      padding:10% 10% 1% 10%;
     }
 
     .alt-band{
@@ -120,46 +123,43 @@ img#wpstats{display:none}
    
     }
 
-/*    .me{
-        background:url("images/lovejose.jpg") no-repeat;
-        background-position: 35% 35%;
-        margin-top: 2%;
-        width: 20em;
-        height:20em;
-        float:left;
-        -webkit-border-radius: 50%;
-        -moz-border-radius: 50%;
-        -ms-border-radius: 50%;
-        -o-border-radius: 50%;
-        border-radius: 50%;
-        border:10px solid white;
-    }
-       */
     .copy{
-      width:60%;
+      width:70%;
       display:inline-block;
+      padding:8% 3% 1% 10%;
+      float:left;
     }
 
     .copy p{
 
    
     }
-    .project{
-      width:28%;
-      min-height: 200px;
-      padding: 2%;
-      display:inline-block;
-      margin:1% 2% 2% 0;
+
+    .alt-band .copy{
+      margin-top:-8%;
+
     }
 
-    .project-blue{
+    .project-box{
+      width:25%;
+      height:230px;
       background: rgb(4,174,216);
+      border: 1px solid #949494;
+      box-shadow: 2px 2px 4px #949494;
+      display:block;
+      margin:0 -6% 2% 10%;
+      float:left;
+      padding:4%; 
     }
 
-    .project p{
-      margin-top:0;
+
+    .project-box img{
+      width:50%;
+      display:block;
+      margin:auto;
 
     }
+
 
     .service{
       border: 1px solid black;
@@ -176,10 +176,18 @@ img#wpstats{display:none}
   /* Start Main Page Images */
 
     .bounce-container{
-     width:39%;
-     float:right;
-   
+     width:20%;
+     float:left;
+     display:block;
+     margin-top: 18%;  
     }
+
+    .alt-band .bounce-container{
+      margin-top:-1%;
+      margin-bottom: 2%;
+    }
+
+
 
     img.bouncing-image, img.still-bouncing-image{
       width: 100%;

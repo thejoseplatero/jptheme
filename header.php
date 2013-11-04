@@ -33,7 +33,7 @@
 
   <body <?php body_class(); ?>>
   <div id="main-page">   <!-- Start Fluid Layout -->   
-    <div class='header'>
+    <div class='header alpha-border-bottom'>
       <div class="logo-container">
         <h1>
           <?php bloginfo('name'); ?>
