@@ -59,7 +59,7 @@ img#wpstats{display:none}
 
     p{
       font-size: 1.313em;
-      line-height: 1.2em;
+      line-height: 1.6em;
     }
     
     a{
@@ -84,7 +84,7 @@ img#wpstats{display:none}
     .logo-container{
       width:20%;
       margin:0;
-      padding:1%;
+      padding:1% 1% 1% 2%;
     }
 
     .header h1{
@@ -140,7 +140,7 @@ img#wpstats{display:none}
 
     }
 
-    .project-box{
+    .project{
       width:25%;
       height:230px;
       background: rgb(4,174,216);
@@ -153,23 +153,42 @@ img#wpstats{display:none}
     }
 
 
-    .project-box img{
+    .project img{
       width:50%;
       display:block;
       margin:auto;
 
     }
 
-
     .service{
-      border: 1px solid black;
-      width:25%;
-      min-height: 200px;
-      padding: 5%;
-      display:inline-block;
+      width: 25%;
+      display: block;
       float:left;
       margin:2%;
+    }
+    .bullet{
+      width:5%;
+      height:0;
+      padding-bottom:5%;
+      background: rgb(4,174,216);
+      display:block;
+    /*  margin:10% -6% 2% 10%;*/
+      float:left;
+      border-radius: 50%;
+      -moz-border-radius:50%;
+      -webkit-border-radius:50%;
+      float:left;
+    }
 
+    .service h3{
+      font-size: 16px;
+      display:block;
+     
+    }
+
+    .service p{
+      font-size: 12px;
+     
     }
   /* End Main Page Layout */
 
